@@ -6,7 +6,7 @@ import { VitePWA } from "vite-plugin-pwa";
 export default defineConfig({
   server: {
     host: true,
-    port: 80,
+    port: 8080,
     strictPort: true,
     proxy: {
       "/api": {
